@@ -3,6 +3,7 @@ import './index.css';
 import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import Language from './components/Language'
+import ArabicJobs from './pages/ArabicJobs'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
     <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/project" element={<Language />} />
+    <Route path="/arabic-jobs" element={<ArabicJobs />} />
+
 
     </Routes>
 </Router>
