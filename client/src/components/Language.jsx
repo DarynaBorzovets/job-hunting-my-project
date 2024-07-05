@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 const LanguageButtons = () => {
   const languages = [
     { code: 'ar', name: 'Arabic / عربي', path: '/arabic-jobs' },
-    { code: 'zh', name: 'Chinese / 中国人'}, // Example for other languages
-    { code: 'fr', name: 'French / Français' }, // Example for other languages
-    // Add other languages as needed
+    { code: 'zh', name: 'Chinese / 中国人'}, 
+    { code: 'fr', name: 'French / Français' }, 
+    
   ];
 
   return (
