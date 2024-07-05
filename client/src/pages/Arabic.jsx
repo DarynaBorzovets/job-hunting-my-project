@@ -1,5 +1,4 @@
 
-// Define your Arabic jobs array
 const jobs = [
   { 
     id: 1, 
@@ -19,7 +18,6 @@ const jobs = [
   }
 ];
 
-// Define the ArabicJobs component
 const Arabic = () => {
   return (
     <div className="container mx-auto px-4 py-8">

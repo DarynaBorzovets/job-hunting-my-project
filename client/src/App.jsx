@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import Language from './components/Language'
 import Arabic from './pages/Arabic'
+import Dutch from './pages/Dutch'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Route path="/" element={<HomePage />} />
     <Route path="/project" element={<Language />} />
     <Route path="/arabic" element={<Arabic />} />
+    <Route path="/dutch" element={<Dutch />} />
 
 
     </Routes>
