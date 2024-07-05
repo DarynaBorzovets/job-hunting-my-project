@@ -20,7 +20,7 @@ const jobs = [
 ];
 
 // Define the ArabicJobs component
-const ArabicJobs = () => {
+const Arabic = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold mb-4 text-purple-400">Jobs / وظائف</h2>
@@ -34,4 +34,4 @@ const ArabicJobs = () => {
   );
 };
 
-export default ArabicJobs;
+export default Arabic;

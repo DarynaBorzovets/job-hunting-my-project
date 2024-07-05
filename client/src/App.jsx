@@ -3,7 +3,7 @@ import './index.css';
 import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import Language from './components/Language'
-import ArabicJobs from './pages/ArabicJobs'
+import Arabic from './pages/Arabic'
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
     <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/project" element={<Language />} />
-    <Route path="/arabic-jobs" element={<ArabicJobs />} />
+    <Route path="/arabic" element={<Arabic />} />
 
 
     </Routes>
