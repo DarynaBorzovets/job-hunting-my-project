@@ -4,12 +4,10 @@ const LanguageButtons = () => {
   const languages = [
     { code: 'ar', name: 'Arabic / عربي', path: '/arabic' },
     { code: 'de', name: 'Dutch / Nederlands', path: '/dutch' },
-    { code: 'hi', name: 'Hindi / हिन्दी' },
-    { code: 'ko', name: 'Korean / 한국어' },
+    { code: 'ko', name: 'Korean / 한국어', path: '/korean'},
     { code: 'ru', name: 'Russian / Русский' },
     { code: 'vi', name: 'Vietnamese / Tiếng Việt' },
     { code: 'zh', name: 'Chinese / 中国人' },
-    { code: 'fr', name: 'French / Français' },
 
     
   ];
