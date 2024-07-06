@@ -7,6 +7,7 @@ import Arabic from './pages/Arabic'
 import Dutch from './pages/Dutch'
 import Korean from './pages/Korean'
 import Russian from './pages/Russian'
+import Vietnamese from './pages/Vietnamese'
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <Route path="/dutch" element={<Dutch />} />
     <Route path="/korean" element={<Korean/>} />
     <Route path="/russian" element={<Russian/>} />
+    <Route path="/vietnamese" element={<Vietnamese/>} />
 
 
     </Routes>

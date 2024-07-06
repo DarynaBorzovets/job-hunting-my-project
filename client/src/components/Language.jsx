@@ -6,7 +6,7 @@ const LanguageButtons = () => {
     { code: 'de', name: 'Dutch / Nederlands', path: '/dutch' },
     { code: 'ko', name: 'Korean / 한국어', path: '/korean'},
     { code: 'ru', name: 'Russian / Русский', path: '/russian' },
-    { code: 'vi', name: 'Vietnamese / Tiếng Việt' },
+    { code: 'vi', name: 'Vietnamese / Tiếng Việt', path: "/vietnamese" },
     { code: 'zh', name: 'Chinese / 中国人' },
 
     
