@@ -3,7 +3,7 @@ const jobs = [
     { 
       id: 1, 
       title: "thu ngân / cashier",
-      description: "Chúng tôi đang tìm kiếm một Nhân viên thu ngân đáng tin cậy và thân thiện để tham gia vào nhóm của chúng tôi. Trách nhiệm: Xử lý các giao dịch, cung cấp dịch vụ khách hàng xuất sắc. Kế hoạch linh hoạt. Kinh nghiệm trước đây không cần thiết. Vui lòng gọi: 999-999-9999 và hỏi Mark. / We are looking for a reliable and friendly Cashier to join our team. Responsibilities: Handle transactions, provide excellent customer service. Flexible schedule. Previous experience not required. Please call: 999-999-9999 and ask Mark."
+      description: "Chúng tôi đang tìm kiếm một Nhân viên thu ngân đáng tin cậy và thân thiện để tham gia vào nhóm của chúng tôi. Trách nhiệm: Xử lý các giao dịch, cung cấp dịch vụ khách hàng xuất sắc. Kế hoạch linh hoạt. Kinh nghiệm trước đây không cần thiết. Vui lòng gọi: 999-999-9999 và hỏi Mark. / We are looking for a reliable and friendly cashier to join our team. Responsibilities: Handle transactions, provide excellent customer service. Flexible schedule. Previous experience is not required. Please, call: 999-999-9999, ask Mark."
    },
   
     { 
@@ -21,7 +21,7 @@ const jobs = [
   const Vietnamese = () => {
     return (
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-bold mb-4 text-purple-400">Jobs / Việc làm</h2>
+        <h2 className="text-3xl font-bold mb-4 text-purple-400">Việc làm / Jobs</h2>
         {jobs.map(job => (
           <div key={job.id} className="my-4 p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-xl font-bold mb-2">{job.title}</h3>

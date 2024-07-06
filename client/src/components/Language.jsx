@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 const LanguageButtons = () => {
   const languages = [
     { code: 'ar', name: 'Arabic / عربي', path: '/arabic' },
-    { code: 'de', name: 'Dutch / Nederlands', path: '/dutch' },
+    { code: 'de', name: 'Dutch / Nederlandse', path: '/dutch' },
     { code: 'ko', name: 'Korean / 한국어', path: '/korean'},
     { code: 'ru', name: 'Russian / Русский', path: '/russian' },
     { code: 'vi', name: 'Vietnamese / Tiếng Việt', path: "/vietnamese" },
-    { code: 'zh', name: 'Chinese / 中国人' },
+    { code: 'zh', name: 'Chinese / 中国人', path: "/chinese" },
 
     
   ];
