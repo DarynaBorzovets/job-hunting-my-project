@@ -14,13 +14,13 @@ const LanguageButtons = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h2 className="text-3xl font-bold mb-4 text-pink-400">Choose your language</h2>
+      <h2 className="text-3xl font-bold mb-4 text-sky-800">Choose your language</h2>
       <div className="grid grid-cols-2 gap-4">
         {languages.map((language) => (
           <Link
             key={language.code}
             to={language.path}
-            className="bg-purple-400 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded shadow-md focus:outline-none focus:shadow-outline"
+            className="bg-gray-600 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded shadow-md focus:outline-none focus:shadow-outline"
           >
             {language.name}
           </Link>

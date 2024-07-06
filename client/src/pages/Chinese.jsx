@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 
 const jobs = [
     { 
@@ -21,7 +23,14 @@ const jobs = [
   const Chinese = () => {
     return (
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-bold mb-4 text-purple-400">工作/ Jobs</h2>
+        <div className="flex justify-between items-center mb-4">
+        <h2 className="text-3xl font-bold text-sky-600"> 工作 / Jobs</h2>
+        <Link to="/project">
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded">
+          回去 / Go back
+          </button>
+        </Link>
+      </div>
         {jobs.map(job => (
           <div key={job.id} className="my-4 p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-xl font-bold mb-2">{job.title}</h3>
