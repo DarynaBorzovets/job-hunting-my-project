@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
+import Job from '../components/Job'; 
 
-const jobs = [
+const jobsArabic = [
   { 
     id: 1, 
     title: "أمين الصندوق / cashier",
@@ -25,15 +26,12 @@ const Arabic = () => {
         <h2 className="text-3xl font-bold text-sky-600"> وظائف / Jobs</h2>
         <Link to="/project">
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded">
-          عُد / Go back
+            عُد / Go back
           </button>
         </Link>
       </div>
-      {jobs.map(job => (
-        <div key={job.id} className="my-4 p-6 bg-white rounded-lg shadow-md">
-          <h3 className="text-xl font-bold mb-2">{job.title}</h3>
-          <p className="text-lg text-gray-800">{job.description}</p>
-        </div>
+      {jobsArabic.map(job => (
+        <Job key={job.id} title={job.title} description={job.description} />
       ))}
     </div>
   );
